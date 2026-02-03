@@ -71,31 +71,23 @@ export function Contact() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-5 gap-8 lg:gap-12">
-          <div className="lg:col-span-2 space-y-4">
-            {contactInfo.map((info) => (
-              <Card key={info.label} className="border-border">
-                <CardContent className="p-4 flex items-start gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
-                    <info.icon className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">
-                      {info.label}
-                    </p>
-                    <p className="font-semibold text-foreground">
-                      {info.value}
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      {info.detail}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+        <div className="grid md:grid-cols-2 gap-8">
+          {contactInfo.map((info) => (
+            <Card key={info.label} className="border-border">
+              <CardContent className="p-4 flex items-start gap-4">
+                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+                  <info.icon className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <p className="text-sm text-muted-foreground">{info.label}</p>
+                  <p className="font-semibold text-foreground">{info.value}</p>
+                  <p className="text-sm text-muted-foreground">{info.detail}</p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
 
-          <Card className="lg:col-span-3 border-border">
+          {/* <Card className="lg:col-span-3 border-border">
             <CardContent className="p-6 md:p-8">
               <h3 className="font-serif text-2xl font-semibold text-foreground mb-6">
                 Envie uma Mensagem
@@ -179,7 +171,7 @@ export function Contact() {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

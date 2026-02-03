@@ -71,7 +71,7 @@ export function Testimonials() {
                 size="icon"
                 onClick={prev}
                 aria-label="Depoimento anterior"
-                className="bg-transparent hover:bg-[#B2C6D1]"
+                className="bg-transparent hover:bg-[#B2C6D1] cursor-pointer"
               >
                 <ChevronLeft className="w-5 h-5" />
               </Button>
@@ -80,7 +80,7 @@ export function Testimonials() {
                 size="icon"
                 onClick={next}
                 aria-label="Próximo depoimento"
-                className="bg-transparent hover:bg-[#B2C6D1]"
+                className="bg-transparent hover:bg-[#B2C6D1] cursor-pointer"
               >
                 <ChevronRight className="w-5 h-5" />
               </Button>
