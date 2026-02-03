@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Heart, Instagram, Facebook, Linkedin } from "lucide-react";
+import Image from "next/image";
+import logo from "@/public/images/logo-footer.png";
 
 const socialLinks = [
   { icon: Instagram, href: "#", label: "Instagram" },
@@ -22,13 +24,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                <Heart className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="font-serif text-xl font-semibold">
-                Sara Soares
-              </span>
+            <Link href="/" className="flex items-center gap-2 mb-8">
+              <Image
+                src={logo.src}
+                alt="Logo Sara Soares"
+                width={250}
+                height={20}
+              />
             </Link>
             <p className="text-background/70 text-sm leading-relaxed mb-4">
               Psicóloga infantil dedicada ao desenvolvimento emocional e
@@ -39,7 +41,7 @@ export function Footer() {
                 <a
                   key={social.label}
                   href={social.href}
-                  className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
+                  className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-[#B2C6D1] transition-colors"
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5" />
