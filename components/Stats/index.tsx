@@ -1,41 +1,47 @@
+"use client";
+
+import { useExperienceYears } from "@/hooks/useExperienceYears";
 import { Users, Clock, Award, Heart } from "lucide-react";
 
-const stats = [
-  {
-    icon: Users,
-    value: "500+",
-    label: "Famílias",
-    description: "atendidas",
-  },
-  {
-    icon: Clock,
-    value: "8",
-    label: "Anos",
-    description: "de experiência",
-  },
-  {
-    icon: Award,
-    value: "4",
-    label: "Especializações",
-    description: "em terapia infantil",
-  },
-  {
-    icon: Heart,
-    value: "98%",
-    label: "Satisfação",
-    description: "dos pais",
-  },
-];
-
 export function Stats() {
+  const yearsExperience = useExperienceYears(2022);
+  const yearsPSocial = useExperienceYears(2023);
+
+  const stats = [
+    {
+      icon: Users,
+      value: "100+",
+      label: "Pacientes",
+      description: "atendidos",
+    },
+    {
+      icon: Clock,
+      value: yearsExperience,
+      label: "Anos",
+      description: "de experiência",
+    },
+    {
+      icon: Award,
+      value: yearsPSocial,
+      label: "Anos",
+      description: "como Psicóloga Social",
+    },
+    {
+      icon: Heart,
+      value: "98%",
+      label: "Satisfação",
+      description: "dos pacientes",
+    },
+  ];
+
   return (
     <section className="py-16 md:py-20 bg-card border-y border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="font-serif text-2xl md:text-3xl text-foreground font-medium max-w-3xl mx-auto text-balance">
-            Sara Soares tem experiência em psicologia infantil, ajudando
-            crianças a desenvolverem habilidades emocionais e comportamentais
-            saudáveis.
+            Sara Soares tem experiência em psicologia clínica e social,
+            auxiliando no desenvolvimento de estratégias mais saudáveis para
+            lidar com dificuldades emocionais e relacionais.
           </p>
         </div>
 

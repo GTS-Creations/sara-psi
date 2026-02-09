@@ -7,31 +7,21 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const testimonials = [
   {
-    name: "Maria Silva",
-    role: "Mãe do Pedro, 7 anos",
+    name: "Paciente Anônimo",
     content:
-      "A Sara mudou a vida do meu filho. Ele era uma criança muito ansiosa e depois de alguns meses de terapia, consegue lidar muito melhor com suas emoções. Sou muito grata!",
+      "Por muito tempo eu não reconhecia meu próprio valor. Achava que minhas necessidades e sentimentos não eram importantes. Foi na terapia que comecei a me enxergar de verdade. Aprendi a me respeitar, a me colocar em primeiro lugar e a valorizar minha própria felicidade.",
     rating: 5,
   },
   {
-    name: "João Santos",
-    role: "Pai da Ana, 5 anos",
+    name: "Paciente Anônimo",
     content:
-      "Profissional incrível! A Ana tinha dificuldades de socialização e hoje é outra criança. A abordagem lúdica da Sara fez toda diferença no tratamento.",
+      "Oi, Sara! Quero lhe agradecer imensamente pela força e por todo o apoio que você nos deu no momento em que eu mais precisava. Sou muito grata pelo suporte da última sessão.",
     rating: 5,
   },
   {
-    name: "Carla Mendes",
-    role: "Mãe do Lucas, 9 anos",
+    name: "Paciente Anônimo",
     content:
-      "A orientação aos pais foi fundamental. Aprendemos muito sobre como apoiar nosso filho em casa. O trabalho da Sara é completo e muito profissional.",
-    rating: 5,
-  },
-  {
-    name: "Roberto Lima",
-    role: "Pai da Sofia, 6 anos",
-    content:
-      "O atendimento online foi uma surpresa positiva. Mesmo à distância, a Sara conseguiu criar um vínculo forte com nossa filha. Recomendo muito!",
+      "Muito obrigado por tudo! Você me fez enxergar coisas em mim que eu não via antes e me ajudou a entender muita coisa. Hoje acredito que a terapia vai muito além de apenas 'pagar alguém'; é sobre buscar ajuda de verdade e se transformar.",
     rating: 5,
   },
 ];
@@ -58,11 +48,11 @@ export function Testimonials() {
               Depoimentos
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-              O que as famílias dizem sobre nosso trabalho
+              O que dizem sobre meu trabalho
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              A confiança das famílias é o que nos motiva a continuar oferecendo
-              o melhor atendimento para cada criança.
+              A confiança dos meus pacientes e suas famílias é o que me motiva a
+              continuar oferecendo um atendimento acolhedor e de qualidade.
             </p>
 
             <div className="flex items-center gap-4">
@@ -111,9 +101,6 @@ export function Testimonials() {
                 <div>
                   <p className="font-semibold text-foreground">
                     {testimonials[currentIndex].name}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {testimonials[currentIndex].role}
                   </p>
                 </div>
               </CardContent>

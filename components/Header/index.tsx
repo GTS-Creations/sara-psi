@@ -45,9 +45,14 @@ export function Header() {
           </nav>
 
           <div className="hidden lg:block">
-            <Button asChild>
-              <a href="#contato">Agendar Consulta</a>
-            </Button>
+            <Link
+              href="https://wa.me/5587996297153"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+            >
+              Agendar Consulta
+            </Link>
           </div>
 
           <button
@@ -78,9 +83,15 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <Button asChild className="w-full mt-2">
-              <a href="#contato">Agendar Consulta</a>
-            </Button>
+
+            <Link
+              href="https://wa.me/5587996297153"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark transition-colors"
+            >
+              Agendar Consulta
+            </Link>
           </nav>
         </div>
       )}

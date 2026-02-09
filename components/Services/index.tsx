@@ -1,31 +1,39 @@
 import Image from "next/image";
-import { Video, Users, BookOpen, CheckCircle } from "lucide-react";
+import { Video, Users, BookOpen, CheckCircle, Sparkles } from "lucide-react";
 
 const services = [
   {
     icon: Video,
     title: "Consulta Online",
     description:
-      "Atendimento por videochamada para maior comodidade da família, mantendo a qualidade do trabalho presencial.",
+      "Consultas por videochamada com a mesma qualidade do presencial, proporcionando comodidade e acessibilidade.",
   },
   {
     icon: Users,
     title: "Orientação aos Pais",
     description:
-      "Sessões dedicadas aos pais para orientação e acompanhamento do desenvolvimento da criança.",
+      "Suporte para que a família compreenda os sinais emocionais e contribua para um ambiente mais seguro e saudável.",
+  },
+  {
+    icon: Sparkles,
+    title: "Abordagem Ludica Infantil",
+    description:
+      "Utilizo brincadeiras, jogos e atividades expressivas para auxiliar a criança a reconhecer e comunicar seus sentimentos.",
   },
   {
     icon: BookOpen,
-    title: "Avaliação Psicológica",
+    title: "Atendimento Individual Adulto",
     description:
-      "Avaliação completa para compreender as necessidades específicas de cada criança.",
+      "Trabalho com inseguranças emocionais, padrões de relacionamento e desenvolvimento de autoconfiança.",
   },
 ];
 
 const features = [
-  "Ambiente acolhedor e seguro",
-  "Abordagem personalizada",
+  "Ambiente acolhedor e sem julgamentos",
+  "Atendimento individualizado",
   "Parceria com a família",
+  "Olhar ético e humanizado",
+  "Abordagem baseada em TCC",
   "Acompanhamento contínuo",
 ];
 
@@ -39,11 +47,13 @@ export function Services() {
               Nossos Serviços
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-              Oferecemos os melhores serviços de psicologia infantil
+              Atendimento psicologico com qualidade e acolhimento
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Com atendimento de alta qualidade e padrão internacional, ajudamos
-              crianças a desenvolverem todo seu potencial emocional e cognitivo.
+              Ofereço um espaço seguro onde é possível identificar padrões
+              emocionais, compreender comportamentos repetitivos e aprender a se
+              relacionar de forma mais consciente, tanto com o outro quanto
+              consigo mesmo.
             </p>
 
             <div className="space-y-6 mb-8">
@@ -94,10 +104,10 @@ export function Services() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground mb-1">
-                    Confiança das Famílias
+                    Atendimento Humanizado
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    Mais de 500 famílias confiam em nosso trabalho
+                    Olhar sensível às diferentes realidades de cada pessoa
                   </p>
                 </div>
               </div>

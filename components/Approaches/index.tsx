@@ -1,4 +1,12 @@
-import { Brain, Puzzle, Layers, Gamepad2 } from "lucide-react";
+import {
+  Brain,
+  Puzzle,
+  Layers,
+  Gamepad2,
+  HeartHandshake,
+  Baby,
+  Shield,
+} from "lucide-react";
 import {
   Card,
   CardContent,
@@ -17,35 +25,43 @@ const approaches = [
       "Manejo da ansiedade",
       "Regulação emocional",
       "Resolução de problemas",
+      "Habilidades sociais",
     ],
   },
   {
-    icon: Puzzle,
-    title: "Terapia ABA",
+    icon: HeartHandshake,
+    title: "Relacionamento e Inseguranca Emocional",
     description:
-      "Análise do Comportamento Aplicada, especialmente eficaz para crianças com TEA, focando no desenvolvimento de habilidades sociais e comunicação.",
+      "Trabalho com pessoas que vivenciam insegurança emocional nos relacionamentos, ajudando a compreender sentimentos como medo de rejeição, abandono, ciúmes excessivos e dificuldade em se posicionar dentro da relação.",
     benefits: [
-      "Desenvolvimento social",
-      "Comunicação",
-      "Habilidades adaptativas",
+      "Autoconfiança emocional",
+      "Vínculos saudáveis",
+      "Padrões relacionais",
+      "Diálogo e equilíbrio",
     ],
   },
   {
-    icon: Layers,
-    title: "Terapia do Esquema",
+    icon: Baby,
+    title: "Ansiedade Infantil",
     description:
-      "Abordagem que trabalha padrões emocionais profundos, ajudando crianças a desenvolver autoestima saudável e relações interpessoais positivas.",
-    benefits: ["Autoestima", "Vínculos afetivos", "Padrões emocionais"],
+      "A ansiedade infantil pode se manifestar por meio de preocupação excessiva, choro frequente, irritabilidade, dificuldades para dormir, medos intensos ou queixas físicas, como dor de barriga e dor de cabeça.",
+    benefits: [
+      "Regulação emocional",
+      "Segurança emocional",
+      "Orientação aos pais",
+      "Abordagem lúdica",
+    ],
   },
   {
-    icon: Gamepad2,
-    title: "Ludoterapia",
+    icon: Shield,
+    title: "Ambiente Seguro e Acolhedor",
     description:
-      "Utiliza o brincar como ferramenta terapêutica, permitindo que a criança expresse emoções e trabalhe conflitos de forma natural e acolhedora.",
+      "Um espaço sem julgamentos, onde é possível identificar padrões emocionais, compreender comportamentos e se relacionar de forma mais consciente.",
     benefits: [
-      "Expressão emocional",
-      "Criatividade",
-      "Desenvolvimento integral",
+      "Autoconhecimento",
+      "Crescimento pessoal",
+      "Resolução de conflitos",
+      "Apoio emocional",
     ],
   },
 ];
@@ -59,11 +75,11 @@ export function Approaches() {
             Abordagens Terapêuticas
           </span>
           <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-            Questões que Trabalhamos Juntos
+            Como Posso Te Ajudar
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Utilizo diferentes abordagens terapêuticas, escolhendo a mais
-            adequada para cada criança e sua família.
+            Atuo principalmente em duas áreas, oferecendo um atendimento
+            acolhedor e individualizado para cada pessoa e família.
           </p>
         </div>
 
