@@ -133,8 +133,8 @@ export function Hero() {
               <div className="absolute -top-4 -right-4 bg-card rounded-xl shadow-lg p-4 border border-border">
                 <div className="text-center">
                   <p className="text-2xl font-bold text-primary">CRP</p>
-                  <p className="text-xs text-muted-foreground">
-                    Registro Ativo
+                  <p className="text-xs font-bold text-muted-foreground">
+                    02 / 27331
                   </p>
                 </div>
               </div>
