@@ -23,12 +23,12 @@ export const outfit = Outfit({
 export const metadata = {
   title: 'Psicóloga em Arcoverde - PE | Dra. Sara Soares | Terapia TCC',
   description: 'Atendimento psicológico clínico e infantil em Arcoverde - PE. Especialista em TCC, ansiedade e relacionamentos. Agende sua consulta presencial ou online com a Dra. Sara Soares.',
-  keywords: ['Psicóloga Arcoverde', 'Terapia TCC Arcoverde', 'Psicologia Infantil Pernambuco', 'Sara Soares Psicóloga'],
+  keywords: ['Psicóloga Arcoverde', 'Terapia TCC Arcoverde', 'Psicologia Infantil Pernambuco', 'Psicóloga em Arcoverde', 'Atendimento Psicológico Arcoverde', 'Terapia Online Arcoverde', 'Ansiedade Infantil Arcoverde', 'Relacionamentos Arcoverde', 'Psicóloga Clínica Arcoverde', 'Terapia para Adultos Arcoverde'],
   openGraph: {
     title: 'Sara Soares - Psicologia Clínica em Arcoverde',
     description: 'Cuidando da sua saúde mental com acolhimento em Arcoverde e região.',
     url: 'https://www.psicologasarasoares.com.br',
-    siteName: 'Sara Soares Psicologia',
+    siteName: 'Sara Soares - Psicologia Clínica em Arcoverde',
     images: [
       {
         url: '/images/hero-sara.jpg',

@@ -21,11 +21,11 @@ export function Hero() {
           <div className="order-2 lg:order-1">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Star className="w-4 h-4" />
-              Psicologia Clinica | TCC
+              Psicóloga em Arcoverde - Dra. Sara Soares
             </span>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance">
-              Psicóloga em Arcoverde - Dra. Sara Soares
+              Dra. Sara Soares
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-xl">
