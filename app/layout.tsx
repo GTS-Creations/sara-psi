@@ -21,23 +21,36 @@ export const outfit = Outfit({
 });
 
 export const metadata = {
-  title: 'Psicóloga em Arcoverde - PE | Dra. Sara Soares | Terapia TCC',
-  description: 'Atendimento psicológico clínico e infantil em Arcoverde - PE. Especialista em TCC, ansiedade e relacionamentos. Agende sua consulta presencial ou online com a Dra. Sara Soares.',
-  keywords: ['Psicóloga Arcoverde', 'Terapia TCC Arcoverde', 'Psicologia Infantil Pernambuco', 'Psicóloga em Arcoverde', 'Atendimento Psicológico Arcoverde', 'Terapia Online Arcoverde', 'Ansiedade Infantil Arcoverde', 'Relacionamentos Arcoverde', 'Psicóloga Clínica Arcoverde', 'Terapia para Adultos Arcoverde'],
+  title: "Psicóloga em Arcoverde - PE | Sara Soares | Terapia TCC",
+  description:
+    "Atendimento psicológico clínico e infantil em Arcoverde - PE. Especialista em TCC, ansiedade e relacionamentos. Agende sua consulta presencial ou online com a Psicóloga Sara Soares.",
+  keywords: [
+    "Psicóloga Arcoverde",
+    "Terapia TCC Arcoverde",
+    "Psicologia Infantil Pernambuco",
+    "Psicóloga em Arcoverde",
+    "Atendimento Psicológico Arcoverde",
+    "Terapia Online Arcoverde",
+    "Ansiedade Infantil Arcoverde",
+    "Relacionamentos Arcoverde",
+    "Psicóloga Clínica Arcoverde",
+    "Terapia para Adultos Arcoverde",
+  ],
   openGraph: {
-    title: 'Sara Soares - Psicologia Clínica em Arcoverde',
-    description: 'Cuidando da sua saúde mental com acolhimento em Arcoverde e região.',
-    url: 'https://www.psicologasarasoares.com.br',
-    siteName: 'Sara Soares - Psicologia Clínica em Arcoverde',
+    title: "Sara Soares - Psicologia Clínica em Arcoverde",
+    description:
+      "Cuidando da sua saúde mental com acolhimento em Arcoverde e região.",
+    url: "https://www.psicologasarasoares.com.br",
+    siteName: "Sara Soares - Psicologia Clínica em Arcoverde",
     images: [
       {
-        url: '/images/hero-sara.jpg',
+        url: "/images/hero-sara.jpg",
         width: 1200,
         height: 630,
       },
     ],
-    locale: 'pt_BR',
-    type: 'website',
+    locale: "pt_BR",
+    type: "website",
   },
 };
 
@@ -55,30 +68,32 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Psychologist",
-              "name": "Psicóloga em Arcoverde - PE | Dra. Sara Soares | Terapia TCC",
-              "image": "https://www.psicologasarasoares.com.br/images/hero-sara.jpg",
-              "description": "Psicóloga clínica especializada em Terapia Cognitivo-Comportamental (TCC). Atendimento presencial e online para adultos e crianças, focando em relacionamentos, ansiedade infantil e bem-estar emocional em Arcoverde, PE.",
-              "address": {
+              name: "Psicóloga em Arcoverde - PE | Sara Soares | Terapia TCC",
+              image:
+                "https://www.psicologasarasoares.com.br/images/hero-sara.jpg",
+              description:
+                "Psicóloga clínica especializada em Terapia Cognitivo-Comportamental (TCC). Atendimento presencial e online para adultos e crianças, focando em relacionamentos, ansiedade infantil e bem-estar emocional em Arcoverde, PE.",
+              address: {
                 "@type": "PostalAddress",
-                "streetAddress": "Rua Dr. Carlos Howard Bradley, 35 - Centro",
-                "addressLocality": "Arcoverde",
-                "addressRegion": "PE",
-                "postalCode": "56506-000",
-                "addressCountry": "BR"
+                streetAddress: "Rua Dr. Carlos Howard Bradley, 35 - Centro",
+                addressLocality: "Arcoverde",
+                addressRegion: "PE",
+                postalCode: "56506-000",
+                addressCountry: "BR",
               },
-              "geo": {
+              geo: {
                 "@type": "GeoCoordinates",
-                "latitude": "-8.419",
-                "longitude": "-37.058"
+                latitude: "-8.419",
+                longitude: "-37.058",
               },
-              "url": "https://www.psicologasarasoares.com.br",
-              "telephone": "+5587996297153",
-              "sameAs": [
+              url: "https://www.psicologasarasoares.com.br",
+              telephone: "+5587996297153",
+              sameAs: [
                 "https://www.instagram.com/psi_sarasoares/",
-                "https://wa.me/5587996297153"
+                "https://wa.me/5587996297153",
               ],
-              "priceRange": "$$"
-            })
+              priceRange: "$$",
+            }),
           }}
         />
       </head>
