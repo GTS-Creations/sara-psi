@@ -21,18 +21,18 @@ export function Hero() {
           <div className="order-2 lg:order-1">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Star className="w-4 h-4" />
-              Psicóloga em Arcoverde - Dra. Sara Soares
+              Psicóloga em Arcoverde
             </span>
 
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 text-balance">
-              Dra. Sara Soares
+              Sara Soares
             </h1>
 
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-xl">
-              Sou Sara Soares, psicóloga clínica com atuação em Terapia
-              Cognitivo-Comportamental (TCC). Especializada em relacionamentos,
-              insegurança emocional e ansiedade infantil, oferecendo um
-              atendimento acolhedor e individualizado.
+              Psicóloga clínica com atuação em Terapia Cognitivo-Comportamental
+              (TCC). Especializada em relacionamentos, insegurança emocional e
+              ansiedade infantil, oferecendo um atendimento acolhedor e
+              individualizado.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

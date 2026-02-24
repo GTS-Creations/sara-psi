@@ -39,9 +39,9 @@ export function Stats() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <p className="font-serif text-2xl md:text-3xl text-foreground font-medium max-w-3xl mx-auto text-balance">
-            Sara Soares tem experiência em psicologia clínica e social,
-            auxiliando no desenvolvimento de estratégias mais saudáveis para
-            lidar com dificuldades emocionais e relacionais.
+            Experiência em psicologia clínica e social, auxiliando no
+            desenvolvimento de estratégias mais saudáveis para lidar com
+            dificuldades emocionais e relacionais.
           </p>
         </div>
 
