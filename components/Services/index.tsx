@@ -47,7 +47,7 @@ export function Services() {
               Nossos Serviços
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 text-balance">
-              Atendimento psicologico com qualidade e acolhimento
+              Atendimento psicológico com qualidade e acolhimento
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
               Ofereço um espaço seguro onde é possível identificar padrões

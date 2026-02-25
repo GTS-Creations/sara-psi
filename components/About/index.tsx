@@ -59,7 +59,7 @@ export function About() {
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
               Olá, eu sou Sara Soares
             </h2>
-            <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">
               Sou psicóloga, com atuação clínica há {yearsExperience} anos,
               trabalhando a partir da Terapia Cognitivo-Comportamental (TCC),
               uma abordagem focada na compreensão da relação entre pensamentos,
@@ -67,7 +67,7 @@ export function About() {
               estratégias mais saudáveis para lidar com dificuldades emocionais
               e relacionais.
             </p>
-            <p className="text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-muted-foreground mb-8 leading-relaxed text-justify">
               Tenho especialização em Programação Neurolinguística aplicada à
               Gestão de Pessoas, formação em Psicologia do Trânsito e sou
               pós-graduanda em Psicologia Hospitalar. Além da prática clínica,
