@@ -67,7 +67,7 @@ export function About() {
               estratégias mais saudáveis para lidar com dificuldades emocionais
               e relacionais.
             </p>
-            <p className="text-muted-foreground mb-8 leading-relaxed text-justify">
+            <p className="text-lg text-muted-foreground mb-6 leading-relaxed text-justify">
               Tenho especialização em Programação Neurolinguística aplicada à
               Gestão de Pessoas, formação em Psicologia do Trânsito e sou
               pós-graduanda em Psicologia Hospitalar. Além da prática clínica,
