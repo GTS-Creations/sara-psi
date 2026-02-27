@@ -31,7 +31,7 @@ const contactInfo = [
     label: "Endereço",
     value: "Rua Dr. Carlos Howard Bradley, 35 - Centro",
     detail: "Arcoverde, PE",
-    link: "https://maps.app.goo.gl/djeZsow9YjgJ2LP46",
+    link: "https://maps.app.goo.gl/Nem9T5HgLYMYnmod8?g_st=aw",
   },
 ];
 
@@ -90,7 +90,7 @@ export function Contact() {
           {/* Coluna do Mapa */}
           <div className="lg:col-span-2 h-400px lg:h-full min-h-350px rounded-xl overflow-hidden border border-border shadow-sm">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3946.8062113831234!2d-37.05654094916338!3d-8.420684006240332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a81bea249fc7e7%3A0x9d13210b77e2ce0e!2sRua%20Dr.%20Carlos%20Howard%20Bradiley%2C%2035%20-%20Centro%2C%20Arcoverde%20-%20PE%2C%2056506-580!5e0!3m2!1spt-BR!2sbr!4v1770654243983!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4712.528121093288!2d-37.0566579!3d-8.4206518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a81bed58c6707f%3A0x5f7e5c3a041892b6!2sSara%20Soares%20-%20Psic%C3%B3loga!5e1!3m2!1spt-BR!2sbr!4v1772231910531!5m2!1spt-BR!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
